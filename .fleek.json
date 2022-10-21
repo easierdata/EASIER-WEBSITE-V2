@@ -1,0 +1,7 @@
+{
+    "build": {
+    
+      "command": "apk add --no-cache libc6-compat libgcc && ln -s /lib/libc.musl-x86_64.so.1 /lib/ld-linux-x86-64.so.2 && jekyll build",
+      "publicDir": "_site"
+    }
+   }
