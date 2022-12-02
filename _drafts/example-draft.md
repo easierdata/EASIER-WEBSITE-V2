@@ -50,6 +50,6 @@ By specifying an asset's CID an alternate \`href\`, anyone can share spatial dat
 
 ## Conclusion
 
-We demonstrated that it's possible to enrich the STAC specification with IPFS CIDs so that geographic data can be retrieved from decentralized storage systems. With CIDs, the source data can be fetched from storage providers in the [Filecoin](https://filecoin.io/ "Filecoin Homepage") ecosystem as well as any node on the IPFS network.
+We demonstrated that it's possible to enrich the STAC specification with IPFS CIDs to retrieve geographic data from decentralized storage systems. With CIDs, the source data can be fetched from storage providers in the [Filecoin](https://filecoin.io/ "Filecoin Homepage") ecosystem and any node on the IPFS network.
 
 In our next blog post, we will demonstrate how easy it is to perform a typical geographic workflow using decentralized data and an IPFS-enriched STAC server.
