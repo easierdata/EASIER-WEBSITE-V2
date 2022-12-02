@@ -15,7 +15,7 @@ Web3 is an exciting and rapidly evolving space for geographic information. This 
 
 When a piece of data is stored in a blockchain-managed, decentralized storage system such as [Filecoin](https://filecoin.io/ "Filecoin Homepage"), a cryptographic hash is generated that uniquely identifies the data. This hash is known as the [CID](https://docs.ipfs.tech/concepts/content-addressing/#what-is-a-cid "What is a CID IPFS Doc") (Content Identifier)
 
-Instead of folders and files, content is hierarchically organized through a [Merkle Dag](https://proto.school/merkle-dags "Protoschool Tutorial on Merkle Dags"). For example, a Landsat scene might be represented this way with the top-level folder name acting as the root and each .TIF within the Landsat scene as a child node. Each node is uniquely identified by a CID starting with 'baf', which is how all V1 CIDs begin.  
+Instead of folders and files, content is hierarchically organized through a [Merkle Dag](https://proto.school/merkle-dags "Protoschool Tutorial on Merkle Dags"). For example, a Landsat scene might be represented this way with the top-level folder name acting as the root and each .TIF within the Landsat scene as a child node. Each node is uniquely identified by a CID starting with `baf`, which is how all V1 CIDs begin.  
 ![A representation of a Landsat scene in a Merkle Dag. Three bands are shown as children of the root.](https://i.imgur.com/SewhZL9.png "Landsat 9 Example DAG")
 
 [Learn more about content-based addressing vs location-based addressing on ProtoSchool](https://proto.school/content-addressing/03 "Protoschool Doc on content addressing")
@@ -30,9 +30,9 @@ e.g.
 
 domain.com/cat.png
 
-You search for content via CID where \`ipfs://<CID>\` resolves to a piece of content that can live anywhere on the IPFS network.
+You search for content via CID where `ipfs://<CID>` resolves to content that can live anywhere on the IPFS network.
 
-Content is accessed on IPFS through an [IPFS Gateway](https://docs.ipfs.tech/concepts/ipfs-gateway/#gateway-providers "IPFS Doc on IPFS Gateways"). For example, the Chromium browser, Brave, has [native IPFS support](https://brave.com/ipfs-support/ "Brave Doc on IPFS Support"). Simply type \`/ipfs/<CID>\` into the`address bar` and you’ll access data via IPFS!
+Content is accessed on IPFS through an [IPFS Gateway](https://docs.ipfs.tech/concepts/ipfs-gateway/#gateway-providers "IPFS Doc on IPFS Gateways"). For example, the Chromium browser, Brave, has [native IPFS support](https://brave.com/ipfs-support/ "Brave Doc on IPFS Support"). Type `/ipfs/<CID>` into the address bar, and you’ll access data via IPFS!
 
 ## Locating Geographic Data via CID within the STAC specification
 
@@ -46,7 +46,7 @@ We have gone one step further and have shown that we can successfully describe a
        }
      }
 
-By specifying an asset's CID an alternate \`href\`, anyone can share spatial data that is content-addressed and referenced on IPFS in their STAC metadata. This data could live on Filecoin another web3 storage platform, or on an IPFS node.
+By specifying an asset's CID, an alternate `href`, anyone can share spatial data that is content-addressed and referenced on IPFS in their STAC metadata. This data could live on Filecoin, another web3 storage platform, or an IPFS node.
 
 ## Conclusion
 
