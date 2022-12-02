@@ -40,8 +40,6 @@ We have gone one step further and have shown that we can successfully describe a
 
 [STAC](https://stacspec.org/en "STAC Spec Homepage") is a specification that enables a common language to describe geospatial information, so it can more easily be worked with, indexed, and discovered. We leveraged STAC’s [alternate assets extension](https://github.com/stac-extensions/alternate-assets "STAC alternate-assets Extension") to add CIDs to Landsat 9 scenes.
 
- 
-
      "alternate": {
        "IPFS": {
          "href": "ipfs://<CID>"
