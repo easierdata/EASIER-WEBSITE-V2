@@ -9,7 +9,7 @@ related_posts: []
 ---
 ## Introduction
 
-Web3 is an exciting and rapidly evolving space for geographic information. In this post, we will explore how EASIER is using STAC, Filecoin, and IPFS to store, retrieve, and analyze geospatial data.
+Web3 is an exciting and rapidly evolving space for geographic information. In this post, we will explore how EASIER uses STAC, Filecoin, and IPFS to store, retrieve, and analyze geospatial data.
 
 ## What do CIDs have to do with Geographic Data?
 
@@ -22,7 +22,7 @@ Instead of folders and files, content is hierarchically organized through a [Mer
 
 ## How does IPFS help you find Geographic data on Web3?
 
-If you would like to share these files with others, IPFS is a great choice. \[IPFS\]([https://docs.ipfs.tech/concepts/what-is-ipfs/](https://docs.ipfs.tech/concepts/what-is-ipfs/ "https://docs.ipfs.tech/concepts/what-is-ipfs/")) is a distributed system for storing and accessing files, websites, applications, and data.
+If you would like to share these files with others, IPFS is an excellent choice. \[IPFS\]([https://docs.ipfs.tech/concepts/what-is-ipfs/](https://docs.ipfs.tech/concepts/what-is-ipfs/ "https://docs.ipfs.tech/concepts/what-is-ipfs/")) is a distributed system for storing and accessing files, websites, applications, and data.
 
 Instead of accessing content by location:
 
