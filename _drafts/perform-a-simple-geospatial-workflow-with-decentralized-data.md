@@ -20,20 +20,12 @@ In the \[last post\] we talked about how the STAC specification can be enriched 
 
 ## How to Calcuate NDVI for a Landsat Scene
 
-NDVI is used to quantify vegetation greenness and is useful in understanding vegetation density and assessing changes in plant health. NDVI is calculated as a ratio between the red ( R ) and near infrared ( NIR ) values in traditional fashion. According to USGS, for landsat 9, the following band math can be used to calculate NDVI
+NDVI is used to quantify vegetation greenness and is helpful in understanding vegetation density and assessing changes in plant health. NDVI is calculated as a ratio between the red ( R ) and near infrared ( NIR ) values in traditional fashion. According to USGS, for landsat 9, the following band math can be used to calculate NDVI
 
 > NDVI = (Band 5 – Band 4) / (Band 5 + Band 4)
 >
 > [Source](https://www.usgs.gov/landsat-missions/landsat-normalized-difference-vegetation-index "USGS NDVI Band Math")
 
-## Fetch Bands 4 and 5 from a Landsat Scene
+## Calculate NDVI with data from IPFS in a Python Juptyter Notebook
 
-The EASIER Data Inititiae 
-
-## Calcuate NDVI
-
-WIP
-
-## Pin Python Notebook to IPFS
-
-WIP
+The EASIER Data Initiative has stood up a \[STAC server\] with a small amount of data for this exercise. To follow along, choose an \[IPFS\] gateway and access the Jupyter Notebook at \[IPFS URL\].
