@@ -40,3 +40,4 @@ fields:
   default: post
 pages:
 - _posts/2022-09-26-easier-data-initiative-launch.md
+- _posts/perform-a-simple-geospatial-workflow-with-decentralized-data.md
