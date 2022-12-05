@@ -60,4 +60,6 @@ We demonstrated that it's possible to enrich the STAC specification with IPFS CI
 
 In our next blog post, we will demonstrate how easy it is to perform a typical geographic workflow using decentralized data and an IPFS-enriched STAC server.
 
+***
+
 John Solly - Geospatial Developer
